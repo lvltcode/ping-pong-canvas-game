@@ -4,6 +4,11 @@ Ping Pong Canvas Game
 
 Play online at: https://ping-pong-canvas-game.netlify.com/
 
+How to play:
+* Move your mouse to handle the left-paddle.
+* Hit the ball by edge of paddle will make the ball flying faster.
+* The ball fly outsite of the paddle will give point to the oponent.
+
 ## What I learned
 * Flow control of how to make a game logically.
 * How to calculate the screen, movement of objects.
