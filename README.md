@@ -1,8 +1,8 @@
-Ping Pong Canvas Game by Javascript
+Ping Pong Canvas Game
 ===
 `May 24 2019` `lvltcode` `HTML/JS`
 
-View online at: https://lvltcode-quiz-app-html-css-js.netlify.com
+Play online at: https://ping-pong-canvas-game.netlify.com/
 
 ## What I learned
 * Flow control of how to make a game logically.
