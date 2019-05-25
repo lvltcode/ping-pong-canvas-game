@@ -21,12 +21,12 @@
       let paddle2Y = 250;
 
       const PADDLE_WIDTH = 10;
-      const PADDLE_HEIGHT = 100;
+      const PADDLE_HEIGHT = 130;
 
       let player1Score = 0;
       let player2Score = 0;
 
-      const WINNING_SCORE = 9;
+      const WINNING_SCORE = 11;
       let showingWinScreen = false;
 
       function calculateMousePos(evt) {
@@ -81,9 +81,9 @@
       function computerMovement() {
         let paddle2YCenter = paddle2Y + PADDLE_HEIGHT/2;
         if (paddle2YCenter < ballY - 35) {
-          paddle2Y += 7;
+          paddle2Y += 15;
         } else if (paddle2YCenter > ballY + 35) {
-          paddle2Y -= 7;
+          paddle2Y -= 15;
         }
       }
 
@@ -101,7 +101,7 @@
             ballSpeedX = -ballSpeedX;
 
             let deltaY = ballY - (paddle1Y + PADDLE_HEIGHT/2);
-            ballSpeedY = (deltaY * 35) / 100;
+            ballSpeedY = (deltaY * 60) / 100;
           } else {
             player2Score += Math.floor(Math.random() * 5 + 1); // Must be before ballReset()
             ballReset();
