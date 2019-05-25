@@ -1,8 +1,13 @@
-Ping Pong Canvas Game by Javascript
+Ping Pong Canvas Game
 ===
 `May 24 2019` `lvltcode` `HTML/JS`
 
-View online at: https://lvltcode-quiz-app-html-css-js.netlify.com
+Play online at: https://ping-pong-canvas-game.netlify.com/
+
+How to play:
+* Move your mouse to handle the left-paddle.
+* Hit the ball by edge of paddle will make the ball flying faster.
+* The ball fly outsite of the paddle will give point to the oponent.
 
 ## What I learned
 * Flow control of how to make a game logically.
